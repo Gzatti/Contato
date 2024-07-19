@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto é um site com links para fotos de um grande dia para minha vida.
 
-- [Acesse o projeto finalizado, online](https://gzatti.github.io/projeto)
+- [Acesse o projeto finalizado, online](https://gzatti.github.io/Contato)
 
 
 ---
