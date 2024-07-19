@@ -1,7 +1,7 @@
-<h1 align="center"> Links Formatura </h1>
+<h1 align="center"> Links de Contato </h1>
 
 <p align="center">
-Feito com auxilio do programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+Feito para auxiliar nas demandas profissionais de um Engenheiro Agrônomo. <br/>
 <a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
 </p>
 
@@ -17,7 +17,7 @@ Feito com auxilio do programa exclusivo e gratuito, promovido pela Rocketseat pa
 <br>
 
 <p align="center">
-  <img alt="Formatura Gabriel" src=".github/preview.png" width="100%">
+  <img alt="Contatos" src=".github/captura.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -27,13 +27,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - JavaScript
 - Git e Github
-- Figma
 
-## 💻 Projeto
+## 💻 Contato
 
-O projeto é um site com links para fotos de um grande dia para minha vida.
+O projeto é um site com links para contat profissional.
 
-- [Acesse o projeto finalizado, online](https://gzatti.github.io/projeto)
+- [Acesse o projeto finalizado, online](https://gzatti.github.io/Contato)
 
 
 ---
