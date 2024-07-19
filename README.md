@@ -1,7 +1,7 @@
-<h1 align="center"> Links Formatura </h1>
+<h1 align="center"> Links de Contato </h1>
 
 <p align="center">
-Feito com auxilio do programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+Feito para auxiliar a demanda profissinal de um Engenheiro Agrônomo. <br/>
 <a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
 </p>
 
@@ -17,7 +17,7 @@ Feito com auxilio do programa exclusivo e gratuito, promovido pela Rocketseat pa
 <br>
 
 <p align="center">
-  <img alt="Formatura Gabriel" src=".github/preview.png" width="100%">
+  <img alt="Contatos" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
