@@ -1,4 +1,4 @@
-<h1 align="center"> Links de Cont </h1>
+<h1 align="center"> Links de Contato </h1>
 
 <p align="center">
 Feito para auxiliar nas demandas profissionais de um Engenheiro Agrônomo. <br/>
@@ -17,7 +17,7 @@ Feito para auxiliar nas demandas profissionais de um Engenheiro Agrônomo. <br/>
 <br>
 
 <p align="center">
-  <img alt="Contatos" src=".github/captura.png" width="100%">
+  <img alt="Contatos" src=".github/captura.JPG" width="100%">
 </p>
 
 ## 🚀 Tecnologias
