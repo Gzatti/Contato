@@ -1,0 +1,233 @@
+body {
+  background-image: var(--bg-url);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
+
+
+  /* pode ser trocado por uma única Linha de código
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;*/
+
+}
+
+:root {
+  --text-color: rgb(241, 230, 183);
+  --bg-url: url(./MinhasFotos/saveiro2.JPG);
+  --stroke-color: rgba(255, 255, 255, 0.1);
+  --susface-color: rgba(255, 255, 255, 0.1);
+  --susface-color-hover: rgba(255, 255, 255, 0.05);
+  --bgsocial-links: rgba(255, 255, 255, 0.2);
+  --titlefoto: rgba(255, 255, 255, 0.082);
+  --button-color: rgb(206, 163, 69);
+  --switch-bg-url: url(./assets/assets/moon-stars.svg);
+}
+
+.light {
+  --text-color: rgb(237, 252, 203);
+  --bg-url: url(./MinhasFotos/saveiro2.JPG);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --susface-color: rgba(0, 0, 0, 0.1);
+  --susface-color-hover: rgba(0, 0, 0, 0.02);
+  --bgsocial-links: rgba(0, 0, 0, 0.1);
+  --titlefoto: rgba(0, 0, 0, 0.411);
+  --button-color: rgb(192, 238, 140);
+  --switch-bg-url: url(./assets/assets/sun.svg);
+}
+
+#title_foto {
+  box-sizing: border-box;
+  display: flex;
+  background-color: var(--titlefoto);
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 6px;
+  width: 240px;
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  box-shadow: 0 0 30px 10px var(--stroke-color);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: var(--text-color);
+}
+
+
+#container {
+  width: 100%;
+  max-width: 588px;
+  margin: auto;
+  margin-top: 56px;
+  padding: 0 24px;
+
+  /*Pode ser utilizado todos em uma única sentença, utilizando a sequencia Top, Rigth, Button, e Left:
+  Dessa forma: margin: 56px auto 0px auto; 
+  */
+}
+
+
+/*profile*/
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img{
+  width: 120px;
+}
+
+#profile p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 24px;
+}
+
+.profile_image img{
+  background-color: #ddd;
+  border-radius: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+/*Switch*/
+
+#switch {
+  position: relative;
+  width: 64px;
+  margin: 4px auto;
+}
+
+#switch button {
+  width: 32px;
+  height: 32px;
+  background: var(--button-color) var(--switch-bg-url) no-repeat center;
+  border: 0;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 1;
+  animation: slide-out 0.5s;
+}
+
+.light #switch button {
+  animation: slide-in 0.5s forwards;
+}
+
+#switch button:hover {
+  outline: 6px solid var(--bgsocial-links);
+}
+
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background: var(--susface-color);
+  border: 1px solid var(--stroke-color);
+  backdrop-filter: (4px);
+  -webkit-backdrop-filter: (4px);
+  border-radius: 9999px;
+
+}
+
+/* links da página*/
+ul { 
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0;
+}
+
+ul li a{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 16px 24px;
+  
+  border: 1px solid var(--stroke-color);
+  border-radius: 12px;
+  background: var(--susface-color);
+  backdrop-filter: blur(8px);
+
+  font-weight: 500;
+  text-decoration: none;
+
+  transition: background 0.5s;
+}
+
+/*Pseudo-selector - quando passar o mouse sobre o botão*/
+ul li a:hover {
+  border: 1,5px solid rgba(255, 255, 255, 0.5);
+  background: var(--susface-color-hover);
+}
+
+/*Social links*/
+#social-links {
+  display: flex;
+  padding: 24px 0;
+  justify-content: center;
+  font-size: 24px;
+}
+
+#social-links a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  transition: background 0.5s;
+  border-radius: 50%;
+}
+
+#social-links a:hover {
+  background: var(--bgsocial-links);
+  padding: 16px;
+}
+
+footer {
+  padding: 24px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* media queries */
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./MinhasFotos/bgescuro.jpg);
+  }
+
+  .light {
+    --bg-url: url(./MinhasFotos/saveiro.JPG);
+  }
+}
+
+/* animação */
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
+}
