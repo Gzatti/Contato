@@ -1,12 +1,8 @@
-<h1 align="center"> Links de Contato </h1>
+<h1 align="center"> Links de Cont </h1>
 
 <p align="center">
-<<<<<<< HEAD
 Feito para auxiliar nas demandas profissionais de um Engenheiro Agrônomo. <br/>
-<a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
-=======
-Feito para auxiliar a demanda profissinal de um Engenheiro Agrônomo. <br/>
->>>>>>> 633f7f67981b6171c1df297511833ff474b94879
+
 </p>
 
 <p align="center">
@@ -21,11 +17,7 @@ Feito para auxiliar a demanda profissinal de um Engenheiro Agrônomo. <br/>
 <br>
 
 <p align="center">
-<<<<<<< HEAD
   <img alt="Contatos" src=".github/captura.png" width="100%">
-=======
-  <img alt="Contatos" src=".github/preview.png" width="100%">
->>>>>>> 633f7f67981b6171c1df297511833ff474b94879
 </p>
 
 ## 🚀 Tecnologias
