@@ -64,9 +64,9 @@ body * {
 
 #container {
   width: 100%;
-  max-width: 588px;
+  max-width: 500px;
   margin: auto;
-  margin-top: 56px;
+  margin-top: 80px;
   padding: 0 24px;
 
   /*Pode ser utilizado todos em uma única sentença, utilizando a sequencia Top, Rigth, Button, e Left:
@@ -78,7 +78,7 @@ body * {
 /*profile*/
 #profile {
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 #profile img{
